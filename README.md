@@ -23,6 +23,7 @@ Especificaciones:
 
  Utilizar manejo de arreglos
 
+Para correrlo: Desde consola, sobre la carpeta principal (npm install, npm start)
 
 --------------------------------------------------------------------------------------------
 
