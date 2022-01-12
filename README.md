@@ -29,6 +29,21 @@ Implementación:
 Se creó una webapp que muestra una lista de usuarios mockeados y de la que se pueden eliminar registros o agregar nuevos.
 El array se guarda en el localstorage para que los registros del usuario se mantengan guardados.
 
+Empleados:
+![Imagen1](images\1.JPG?raw=true "Empleados")
+Abajo:
+![Imagen2](images\2.JPG?raw=true "Empleados")
+
+Agregar empleado:
+![Imagen3](images\3.JPG?raw=true "Empleados")
+
+Formulario controlado:
+![Imagen4](images\4.JPG?raw=true "Empleados")
+![Imagen5](images\5.JPG?raw=true "Empleados")
+
+Empleado agregado:
+![Imagen6](images\6.JPG?raw=true "Empleados")
+![Imagen7](images\7.JPG?raw=true "Empleados")
 
 
 
