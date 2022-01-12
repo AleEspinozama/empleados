@@ -30,20 +30,24 @@ Se creó una webapp que muestra una lista de usuarios mockeados y de la que se p
 El array se guarda en el localstorage para que los registros del usuario se mantengan guardados.
 
 Empleados:
-![Imagen1](images\1.JPG?raw=true "Empleados")
+<img src="https://github.com/AleEspinozama/empleados/blob/main/images/1.JPG?raw=true" alt="Empleados"/>
 Abajo:
-![Imagen2](images\2.JPG?raw=true "Empleados")
+<img src="https://github.com/AleEspinozama/empleados/blob/main/images/2.JPG?raw=true" alt="Empleados"/>
 
 Agregar empleado:
-![Imagen3](images\3.JPG?raw=true "Empleados")
+<img src="https://github.com/AleEspinozama/empleados/blob/main/images/3.JPG?raw=true" alt="Empleados"/>
 
 Formulario controlado:
-![Imagen4](images\4.JPG?raw=true "Empleados")
-![Imagen5](images\5.JPG?raw=true "Empleados")
+<img src="https://github.com/AleEspinozama/empleados/blob/main/images/4.JPG?raw=true" alt="Empleados"/>
+<img src="https://github.com/AleEspinozama/empleados/blob/main/images/5.JPG?raw=true" alt="Empleados"/>
 
 Empleado agregado:
-![Imagen6](images\6.JPG?raw=true "Empleados")
-![Imagen7](images\7.JPG?raw=true "Empleados")
+<img src="https://github.com/AleEspinozama/empleados/blob/main/images/6.JPG?raw=true" alt="Empleados"/>
+<img src="https://github.com/AleEspinozama/empleados/blob/main/images/7.JPG?raw=true" alt="Empleados"/>
+
+Eliminar empleado:
+<img src="https://github.com/AleEspinozama/empleados/blob/main/images/8.JPG?raw=true" alt="Empleados"/>
+<img src="https://github.com/AleEspinozama/empleados/blob/main/images/9.JPG?raw=true" alt="Empleados"/>
 
 
 
