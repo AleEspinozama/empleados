@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Empleado from '../Empleado/Empleado'
 import Swal from 'sweetalert2'
 import './Empleados.css'
@@ -10,8 +10,12 @@ function Empleados() {
 
     function onClose(id) {
         setEmpleados(oldEmpleados => oldEmpleados.filter(c => c.id !== id));
-      }
-    
+      }   
+      
+      useEffect(() => {
+        localStorage.setItem("empleados", JSON.stringify(empleados));
+      }, [empleados]);
+
     return (
         <div>
             <div className= "grid">
@@ -49,7 +53,10 @@ function Empleados() {
                     ))
                 }
              <Link to="/agregar" className='container'>
-                 <div className='icon'><AiOutlineUserAdd size={80}/></div>
+                 <div className='icon'>
+                     <AiOutlineUserAdd size={80}/>
+                     <h1>Agregar empleado</h1>
+                     </div>
              </Link>
             </div>
         </div>

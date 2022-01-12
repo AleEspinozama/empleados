@@ -4,8 +4,12 @@ import { Outlet, Link } from "react-router-dom";
 import { getEmployees } from "./data"
 
 function App() {
+
+  //traer la mockup data o reestablecer la del local storage
   let data= getEmployees();
-  const [empleados, setEmpleados] = useState(data);
+  const reset = JSON.parse(localStorage.getItem("empleados")) || null
+  console.log(reset)
+  const [empleados, setEmpleados] = useState( reset || data );
 
   return (
     <div className="App">

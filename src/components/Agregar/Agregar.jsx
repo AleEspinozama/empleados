@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useOutletContext, useNavigate } from "react-router-dom"
 import Swal from 'sweetalert2'
 import './Agregar.css'
@@ -8,6 +8,10 @@ function Agregar() {
 
     const [empleados, setEmpleados] = useOutletContext();
     let navigate = useNavigate();
+
+    useEffect(() => {
+        localStorage.setItem("empleados", JSON.stringify(empleados));
+      }, [empleados]);
 
     //estado inicial del form
     const[InputEmployee, setInputEmployee] = useState(
