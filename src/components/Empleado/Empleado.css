@@ -1,0 +1,42 @@
+.container{
+    border: 4px solid;
+    border-radius: 3px;    
+}
+
+.content{
+    padding: 2rem 2rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.picture {
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit: cover;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.cerrar {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4px;
+    margin-top: 4px;
+}
+.btn {
+    justify-content: flex-end;
+    font-weight: bold;
+    cursor: pointer;
+    border: wheat;
+}
+
+.btn:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+

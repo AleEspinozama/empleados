@@ -1,0 +1,11 @@
+.grid{
+    display:grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 40rem);
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.icon{
+    padding:3rem 0
+}

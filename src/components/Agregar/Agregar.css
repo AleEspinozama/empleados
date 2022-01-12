@@ -1,0 +1,33 @@
+.inputs{
+    display: flex;   
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.input{
+    margin: 2rem;
+
+}
+input {
+    border: 2px solid rgb(60, 2, 94);
+    border-radius: 4px;
+}
+
+label {
+    margin: 1.5rem;
+    color:rgb(60, 2, 94)
+}
+
+.danger{
+    color:red;
+    align-content: flex-end;
+}
+
+.button{
+    background-color:rgb(101, 4, 156);
+    color:white;
+    border: 3px solid rgb(151, 122, 168);
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}

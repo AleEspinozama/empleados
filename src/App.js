@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
+import { Outlet, Link } from "react-router-dom";
+import { getEmployees } from "./data"
 
 function App() {
+  let data= getEmployees();
+  const [empleados, setEmpleados] = useState(data);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <h1>Empleados</h1>
+        <Link className="button" to="/empleados">Lista</Link> |{" "}
+        <Link className="button" to="/agregar">Agregar</Link>
+        <Outlet context={[empleados, setEmpleados]}/>
     </div>
   );
 }
