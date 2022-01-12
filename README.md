@@ -4,7 +4,9 @@
 Indicaciones del caso práctico
 
 El ejercicio consiste en:
+
  Realizar una aplicación sencilla que emule una lista de empleados.
+
  Mostrar la imagen y su información básica
 
  Tener la posibilidad de agregar y eliminar la información del empleado.
